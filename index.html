@@ -1,48 +1,33 @@
-<!doctype html>
-<html lang="it">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dashboard Recupero Schiena - Davide</title>
 <style>
-body{margin:0;background:#f5f7fb;color:#1f2937;font-family:Arial,Helvetica,sans-serif}
-.container{max-width:1250px;margin:0 auto;padding:24px}
-.header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-start;margin-bottom:22px}
-h1{margin:0;font-size:30px}h2{margin:0 0 14px;font-size:20px}.subtitle{color:#6b7280;margin-top:6px}
-.badge{background:#ecfdf5;color:#0f766e;padding:8px 12px;border-radius:999px;border:1px solid #99f6e4;font-weight:700}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:22px}
-.card,.section{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:16px;box-shadow:0 1px 5px rgba(0,0,0,.04)}
-.label{font-size:13px;color:#6b7280}.value{font-size:28px;font-weight:800;margin-top:8px;line-height:1.05}.small{font-size:20px;line-height:1.25}
-.note{background:#ecfdf5;border:1px solid #a7f3d0;border-radius:16px;padding:16px;margin-bottom:22px}
-.warning{background:#fff7ed;border:1px solid #fed7aa;border-radius:16px;padding:16px;margin:22px 0;color:#7c2d12}
-.grid{display:grid;grid-template-columns:1fr;gap:22px}table{width:100%;border-collapse:collapse}
-th{background:#1f4e78;color:white;text-align:left;padding:10px;font-size:13px;white-space:nowrap}
-td{border-top:1px solid #e5e7eb;padding:9px;vertical-align:top;font-size:13px}tr:nth-child(even)td{background:#fafafa}
-.barwrap{display:flex;flex-direction:column;gap:10px}.barrow{display:grid;grid-template-columns:145px 1fr 70px;gap:10px;align-items:center}
-.bar{height:20px;background:#dbeafe;border-radius:999px;overflow:hidden}.fill{height:100%;background:#1f4e78;border-radius:999px}
-.footer{color:#6b7280;font-size:12px;margin-top:22px}
-@media(max-width:720px){.container{padding:14px}.barrow{grid-template-columns:120px 1fr 55px}h1{font-size:25px}}
-</style>
-</head>
-<body>
-<div class="container">
-<div class="header">
-<div><h1>Dashboard Recupero Schiena</h1><div class="subtitle">Davide Manstretta · Aggiornata a giovedì pranzo</div></div>
-<div class="badge">Obiettivo California: On Track</div>
-</div>
+body{font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#1f2937;margin:0}
+.container{max-width:1200px;margin:auto;padding:24px}
+h1{margin:0 0 6px}.subtitle{color:#6b7280;margin-bottom:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:20px}
+.card,.section{background:white;border:1px solid #e5e7eb;border-radius:14px;padding:16px;margin-bottom:18px}
+.label{font-size:13px;color:#6b7280}.value{font-size:26px;font-weight:800;margin-top:6px}
+.note{background:#ecfdf5;border:1px solid #a7f3d0;border-radius:14px;padding:15px;margin-bottom:18px}
+table{border-collapse:collapse;width:100%}th{background:#1f4e78;color:white;text-align:left;padding:9px;font-size:13px}
+td{border-top:1px solid #e5e7eb;padding:8px;font-size:13px;vertical-align:top}tr:nth-child(even)td{background:#fafafa}
+.done{font-weight:bold;color:#0f766e}.todo{font-weight:bold;color:#c2410c}
+.barrow{display:grid;grid-template-columns:135px 1fr 60px;gap:10px;align-items:center;margin:8px 0}
+.bar{height:18px;background:#dbeafe;border-radius:999px;overflow:hidden}.fill{height:100%;background:#1f4e78}
+</style></head><body><div class="container">
+<h1>Dashboard Recupero Schiena</h1>
+<div class="subtitle">Davide Manstretta · Aggiornata a venerdì sera</div>
 
 <div class="cards">
 <div class="card"><div class="label">Dolore iniziale</div><div class="value">9.5/10</div></div>
 <div class="card"><div class="label">Dolore attuale</div><div class="value">6–6.5/10</div></div>
-<div class="card"><div class="label">Farmaci oggi fino a pranzo</div><div class="value small">✓ completati</div></div>
-<div class="card"><div class="label">Mobilità attuale</div><div class="value small">Cammina senza stampelle, con prudenza</div></div>
+<div class="card"><div class="label">Farmaci fino a venerdì sera</div><div class="value">✓ completati</div></div>
+<div class="card"><div class="label">Mobilità attuale</div><div class="value">Senza stampelle</div></div>
 </div>
 
-<div class="note"><b>Ultimo aggiornamento:</b> giovedì fino a pranzo: prese tutte le medicine previste fino a pranzo. Al mattino presi gastroprotettore, cortisone 4 mg i.m., Brufen 600 ed Expose 100; a pranzo preso Expose 100. Dolore circa stabile, mobilità migliorata.</div>
+<div class="note"><b>Ultimo aggiornamento:</b> giovedì completato; venerdì mattina, pranzo e sera completati. Tutte le medicine dovute fino a venerdì sera risultano prese/fatte.</div>
 
-<div class="grid">
-<div class="section">
-<h2>Andamento dolore</h2>
-<div class="barwrap">
+<div class="section"><h2>Andamento dolore</h2>
 <div class="barrow"><span>Sabato</span><div class="bar"><div class="fill" style="width:95%"></div></div><b>9.5</b></div>
 <div class="barrow"><span>Domenica</span><div class="bar"><div class="fill" style="width:85%"></div></div><b>8.5</b></div>
 <div class="barrow"><span>Lun mattina</span><div class="bar"><div class="fill" style="width:75%"></div></div><b>7.5</b></div>
@@ -50,60 +35,36 @@ td{border-top:1px solid #e5e7eb;padding:9px;vertical-align:top;font-size:13px}tr
 <div class="barrow"><span>Martedì</span><div class="bar"><div class="fill" style="width:70%"></div></div><b>7.0</b></div>
 <div class="barrow"><span>Mercoledì</span><div class="bar"><div class="fill" style="width:63%"></div></div><b>6.3</b></div>
 <div class="barrow"><span>Giovedì</span><div class="bar"><div class="fill" style="width:63%"></div></div><b>6.3</b></div>
-</div>
+<div class="barrow"><span>Venerdì</span><div class="bar"><div class="fill" style="width:63%"></div></div><b>6.3</b></div>
 </div>
 
-<div class="section">
-<h2>Timeline mobilità</h2>
-<table><thead><tr><th>Giorno</th><th>Dolore</th><th>Mobilità</th></tr></thead>
-<tbody>
-<tr><td>Sabato</td><td>9.5</td><td>Bloccato a letto</td></tr>
-<tr><td>Domenica</td><td>8.5</td><td>Bagno e sala con aiuto</td></tr>
-<tr><td>Lunedì mattina</td><td>7.5</td><td>Cucina con aiuto di Sara; 15 min seduto</td></tr>
-<tr><td>Lunedì sera</td><td>6.8</td><td>Cammina con stampelle</td></tr>
-<tr><td>Martedì</td><td>7.0</td><td>Si alza da solo; più rigido al risveglio</td></tr>
-<tr><td>Mercoledì</td><td>6.3</td><td>Si alza senza appoggiarsi</td></tr>
-<tr><td>Giovedì</td><td>6.3</td><td>Cammina senza stampelle, con prudenza</td></tr>
+<div class="section"><h2>Tracker farmaci</h2>
+<table><thead><tr><th>Giorno</th><th>Momento</th><th>Gastroprotettore</th><th>Soldesam / cortisone</th><th>Brufen 600</th><th>Expose 100</th><th>Dolore</th><th>Note</th></tr></thead><tbody>
+<tr><td>Sabato</td><td>Mattina</td><td class="done">✓</td><td class="done">✓ 8 mg i.m.</td><td class="done">✓</td><td></td><td>9.5</td><td>Bloccato a letto</td></tr>
+<tr><td>Sabato</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td></td><td>9.5</td><td>Fase acuta molto intensa</td></tr>
+<tr><td>Domenica</td><td>Mattina</td><td class="done">✓</td><td class="done">✓ 8 mg i.m.</td><td class="done">✓</td><td></td><td>8.5</td><td>Riesce a stare seduto</td></tr>
+<tr><td>Domenica</td><td>Pranzo</td><td></td><td></td><td></td><td class="done">✓</td><td>8.5</td><td>Bagno con aiuto</td></tr>
+<tr><td>Domenica</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>8.5</td><td>Camera-sala con aiuto</td></tr>
+<tr><td>Lunedì</td><td>Mattina</td><td class="done">✓</td><td class="done">✓ 8 mg i.m.</td><td class="done">✓</td><td class="done">✓</td><td>7.5</td><td>Cucina con aiuto di Sara</td></tr>
+<tr><td>Lunedì</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>6.8</td><td>Cammina con stampelle</td></tr>
+<tr><td>Martedì</td><td>Mattina</td><td class="done">✓ 06:57</td><td class="done">✓ 8 mg i.m.</td><td class="done">✓</td><td class="done">✓</td><td>7.0</td><td>Più indolenzito</td></tr>
+<tr><td>Martedì</td><td>Pranzo</td><td></td><td></td><td></td><td class="done">✓</td><td>7.0</td><td>Miorilassante preso</td></tr>
+<tr><td>Martedì</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>6.5–7</td><td>Mobilità migliore</td></tr>
+<tr><td>Mercoledì</td><td>Mattina</td><td class="done">✓</td><td class="done">✓ 4 mg i.m.</td><td class="done">✓</td><td class="done">✓</td><td>6.5–7</td><td>Si alza senza appoggiarsi</td></tr>
+<tr><td>Mercoledì</td><td>Pranzo</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>6.5</td><td>Mobilità migliorata</td></tr>
+<tr><td>Mercoledì</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>6–6.5</td><td>Giornata completata</td></tr>
+<tr><td>Giovedì</td><td>Mattina</td><td class="done">✓</td><td class="done">✓ 4 mg i.m.</td><td class="done">✓</td><td class="done">✓</td><td>6–6.5</td><td>Terapia mattutina completata</td></tr>
+<tr><td>Giovedì</td><td>Pranzo</td><td></td><td></td><td></td><td class="done">✓</td><td>6–6.5</td><td>Medicine fino a pranzo prese</td></tr>
+<tr><td>Giovedì</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>6–6.5</td><td>Giornata completata</td></tr>
+<tr><td>Venerdì</td><td>Mattina</td><td class="done">✓</td><td class="done">✓ 4 mg i.m.</td><td class="done">✓</td><td class="done">✓</td><td>6–6.5</td><td>Terapia mattutina completata</td></tr>
+<tr><td>Venerdì</td><td>Pranzo</td><td></td><td></td><td></td><td class="done">✓</td><td>6–6.5</td><td>Farmaci di pranzo completati</td></tr>
+<tr><td>Venerdì</td><td>Sera</td><td></td><td></td><td class="done">✓</td><td class="done">✓</td><td>6–6.5</td><td>Giornata completata</td></tr>
+<tr><td>Sabato 2</td><td>Mattina</td><td class="todo">Da prendere</td><td class="todo">Da fare 4 mg i.m.</td><td class="todo">Da prendere</td><td class="todo">Da prendere</td><td></td><td></td></tr>
+<tr><td>Sabato 2</td><td>Pranzo</td><td></td><td></td><td></td><td class="todo">Da prendere</td><td></td><td></td></tr>
+<tr><td>Sabato 2</td><td>Sera</td><td></td><td></td><td class="todo">Da prendere</td><td class="todo">Da prendere</td><td></td><td></td></tr>
+<tr><td>Domenica 2</td><td>Mattina</td><td class="todo">Da prendere</td><td>32 gocce</td><td class="todo">Da prendere</td><td class="todo">Da prendere</td><td></td><td></td></tr>
 </tbody></table>
 </div>
 
-<div class="section">
-<h2>Tracker farmaci: presi / da prendere</h2>
-<table>
-<thead><tr><th>Giorno</th><th>Momento</th><th>Gastroprotettore</th><th>Soldesam / cortisone</th><th>Brufen 600</th><th>Expose 100</th><th>Dolore</th><th>Mobilità / note</th></tr></thead>
-<tbody>
-<tr><td>Sabato</td><td>Mattina</td><td>✓</td><td>✓ 8 mg i.m.</td><td>✓ Brufen 600</td><td></td><td>9.5</td><td>Bloccato a letto</td></tr>
-<tr><td>Sabato</td><td>Sera</td><td></td><td></td><td>✓ Brufen 600</td><td></td><td>9.5</td><td>Fase acuta molto intensa</td></tr>
-<tr><td>Domenica</td><td>Mattina</td><td>✓</td><td>✓ 8 mg i.m.</td><td>✓ Brufen 600</td><td></td><td>8.5</td><td>Riesce a stare seduto</td></tr>
-<tr><td>Domenica</td><td>Pranzo</td><td></td><td></td><td></td><td>✓ Expose 100</td><td>8.5</td><td>Arrivato al bagno con aiuto</td></tr>
-<tr><td>Domenica</td><td>Sera</td><td></td><td></td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>8.5</td><td>Camera-sala con aiuto</td></tr>
-<tr><td>Lunedì</td><td>Mattina</td><td>✓</td><td>✓ 8 mg i.m.</td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>7.5</td><td>Cucina con aiuto di Sara</td></tr>
-<tr><td>Lunedì</td><td>Sera</td><td></td><td></td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>6.8</td><td>Cammina con stampelle</td></tr>
-<tr><td>Martedì</td><td>Mattina</td><td>✓ 06:57</td><td>✓ 8 mg i.m.</td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>7.0</td><td>Più indolenzito dopo la notte</td></tr>
-<tr><td>Martedì</td><td>Pranzo</td><td></td><td></td><td></td><td>✓ Expose 100</td><td>7.0</td><td>Miorilassante preso</td></tr>
-<tr><td>Martedì</td><td>Sera</td><td></td><td></td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>6.5–7</td><td>Mobilità migliore</td></tr>
-<tr><td>Mercoledì</td><td>Mattina</td><td>✓</td><td>✓ 4 mg i.m.</td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>6.5–7</td><td>Si alza senza appoggiarsi</td></tr>
-<tr><td>Mercoledì</td><td>Pranzo</td><td></td><td></td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>6.5</td><td>Mobilità migliorata</td></tr>
-<tr><td>Mercoledì</td><td>Sera</td><td></td><td></td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>6–6.5</td><td>Giornata completata</td></tr>
-<tr><td>Giovedì</td><td>Mattina</td><td>✓ preso</td><td>✓ 4 mg i.m.</td><td>✓ Brufen 600</td><td>✓ Expose 100</td><td>6–6.5</td><td>Terapia mattutina completata</td></tr>
-<tr><td>Giovedì</td><td>Pranzo</td><td></td><td></td><td></td><td>✓ Expose 100</td><td>6–6.5</td><td>Tutte le medicine fino a pranzo prese</td></tr>
-<tr><td>Giovedì</td><td>Sera</td><td></td><td></td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Venerdì</td><td>Mattina</td><td>Da prendere</td><td>Da fare 4 mg i.m.</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Venerdì</td><td>Pranzo</td><td></td><td></td><td></td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Venerdì</td><td>Sera</td><td></td><td></td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Domenica 2</td><td>Mattina</td><td>Da prendere</td><td>32 gocce</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Lunedì 2</td><td>Mattina</td><td>Da prendere</td><td>32 gocce</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Martedì 2</td><td>Mattina</td><td>Da prendere</td><td>32 gocce</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Mercoledì 2</td><td>Mattina</td><td>Da prendere</td><td>16 gocce</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Giovedì 2</td><td>Mattina</td><td>Da prendere</td><td>16 gocce</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-<tr><td>Venerdì 2</td><td>Mattina</td><td>Da prendere</td><td>16 gocce</td><td>Da prendere</td><td>Da prendere</td><td></td><td></td></tr>
-</tbody>
-</table>
-</div>
-
-<div class="warning"><b>Da monitorare:</b> fastidio al gluteo/gamba destra. Segnalare al medico se compare formicolio, perdita di forza, dolore che scende sotto il ginocchio o peggioramento progressivo.</div>
-</div>
-<div class="footer">Dashboard personale per monitoraggio. Non sostituisce il parere medico.</div>
-</div>
-</body>
-</html>
+<div class="note"><b>Nota monitoraggio:</b> resta da osservare il fastidio gluteo/gamba destra. Segnalare se compaiono formicolii, perdita di forza o peggioramento.</div>
+</div></body></html>
